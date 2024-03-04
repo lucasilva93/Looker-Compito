@@ -1,0 +1,21 @@
+
+Data Meditation - Google Looker - Luca Silva: https://lookerstudio.google.com/s/j3vxXUgrrXk
+Dataset Personale: https://docs.google.com/spreadsheets/d/1N0Fb9UjEKRHJvAohgX1raxVdgCA2w5GD-zrWqlgJMLU/edit?usp=sharing
+Dataset Fitness: https://docs.google.com/spreadsheets/d/1C6BQXRK1MBCY8O6P7NYBCezsAwMck3tcc1f7VXmHxoY/edit?usp=sharing
+Google Drive: https://drive.google.com/drive/folders/191ovmhp4olmNy28dLpde3LTLtdKqMijR?usp=share_link
+
+
+La mia dashboard si focalizza sui dati raccolti dall'applicazione "Salute" negli ultimi 25 giorni.
+Per iniziare, ho caricato l'icona dell'app fitness e generato un layout a tema con i colori più consoni. 
+
+PAGINA 1 -> "ATTIVITÀ" -> 
+Per prima cosa ho creato quattro "schede punteggi" con le metriche totali per avere un quadro generale dei dati raccolti.
+Subito dopo, ho inserito due "grafici serie temporali": il primo relaziona il battito cardiaco massimo e minimo nel tempo, il secondo relaziona il totale delle calorie attive bruciate nello stesso arco temporale. Come si poteva facilmente immaginare, si nota che le calorie ed il battito cardiaco (massimo) presentano una correlazione positiva. Inoltre, il battito massimo varia con un'ampiezza molto superiore rispetto al battito minimo. A livello di design, ho utilizzato i colori suggeriti, una linea a punti, aggiunto i titoli e pure l'ombra al bordo ad entrambi i  grafici in modo da uniformarli. 
+
+PAGINA 2 -> "MEDIE E CAMMINATE" -> 
+Nella parte superiore della pagina: ho aggiunto il titolo, un filtro dove l'utente può selezionare l'intervallo di date, l'icona dell'applicazione ed un pulsante che permette di scaricare il report affiancato dall'immagine di download. Al centro, ho inserito tre "misuratori" basati sulle medie di ore in piedi, saturazione e minuti di sonno. 
+Come "target" ho scelto la mezza giornata per le ore in piedi (sulla giornata intera), il 95% per la saturazione (valore minimo indicato dai Medici) e le 8 ore di sonno (media per gli adulti). In basso, ho introdotto un altro "grafico serie temporali" con le stesse proprietà dei precedenti per confrontare i chilometri percorsi ed i piani saliti. Si evince che nelle giornate in cui ho camminato di più, ho anche affrontato dei dislivelli maggiori in quanto il tragitto è avvenuto all'aria aperta. 
+
+PAGINA 3 -> "FITNESS" -> 
+In questa ultima pagina del report, ho cercato e trovato un dataset online focalizzato sui dati fitness di quasi 4000 sportivi.
+Ho inserito 3 grafici ad anello con le stesse caratteristiche illustrando rispettivamente la media di calorie bruciate, la media dell'età dei soggetti e la media del battito cardiaco per sesso. É facile notare che tra i due generi ci sia veramente una differenza minima in tutti e tre i campi elaborati. Infine, ho generato un "grafico a colonne" relazionando il battito cardiaco medio e l'età di tutti gli sportivi. La linea di riferimento tratteggiata rappresenta il battito medio dei due sessi. 
